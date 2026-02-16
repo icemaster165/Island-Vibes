@@ -1,0 +1,1008 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IslandVibes</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="island-vibes.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-bg navbar-expand-md navbar-dark fixed-top">
+      <div class="container-fluid px-3 px-md-5 fs-5 fw-semibold py-1">
+        <a class="navbar-brand fs-3 fw-bold logo-font" href="#"
+          >Island<span class="text-warning">Vibes</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto gap-md-1 align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Offers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Locations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- HERO -->
+      <section class="container-fluid hero p-0">
+        <video
+          class="hero-bg vh-100 p-0"
+          src="videos/hero-bg.mp4"
+          autoplay
+          loop
+          muted
+          playsinline
+        ></video>
+        <div
+          class="container gap-3 gap-md-5 hero-content align-items-md-start align-items-center justify-content-center text-md-start text-center text-white"
+        >
+          <div class="hero-text">
+            <h1 class="display-3 text-uppercase fw-bold text-balance mb-3">
+              feel the rhythm of the islands
+            </h1>
+            <p class="fs-3 text-capitalize fw-medium">
+              Escape to sun-kissed beaches, crystal-clear waters, and
+              unforgettable Caribbean experiences surrounded by natural beauty,
+              vibrant culture, and relaxed island living.
+            </p>
+          </div>
+
+          <div
+            class="btn-hero flex-wrap container d-flex flex-row justify-content-center align-items-center gap-2"
+          >
+            <button class="btn fw-semibold btn-lg btn-outline-warning px-4">
+              Book Now
+            </button>
+            <button class="btn fw-semibold btn-lg btn-success px-4">
+              Learn More
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- DESTINATIONS -->
+      <section class="destinations m-2 m-lg-5 pt-5">
+        <div class="container-fluid">
+          <div
+            class="destination-title d-flex justify-content-center align-items-center text-center mb-4 mb-lg-2"
+          >
+            <h2 class="text-capitalize display-4 fw-bold">
+              destinations we offer
+            </h2>
+          </div>
+          <div class="container-fluid destinations-container p-0 p-lg-5">
+            <div class="row g-3">
+              <div
+                class="col-12 col-lg-4 destinations-card image-reveal"
+                data-bs-toggle="collapse"
+                data-bs-target="#trinidad-info"
+              >
+                <img
+                  class="destinations-image"
+                  src="images/country - trinidad-and-tobago.jpg"
+                  alt="Trinidad and Tobago beach"
+                />
+                <div id="trinidad-info" class="destinations-overlay collapse">
+                  <div class="overlay-content">
+                    <span class="flag-icon fi fi-tt"></span>
+                    <h3 class="fs-2 fw-bold">Trinidad & Tobago</h3>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-lg-5 destinations-card image-reveal"
+                data-bs-toggle="collapse"
+                data-bs-target="#jamaica-info"
+              >
+                <img
+                  class="destinations-image"
+                  src="images/country - jamaica.jpg"
+                  alt="Jamaica beach"
+                />
+                <div id="jamaica-info" class="destinations-overlay">
+                  <div class="overlay-content">
+                    <span class="flag-icon fi fi-jm"></span>
+                    <h3 class="fs-2 fw-bold">Jamaica</h3>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-lg-3 destinations-card image-reveal"
+                data-bs-toggle="collapse"
+                data-bs-target="#guyana-info"
+              >
+                <img
+                  class="destinations-image"
+                  src="images/country - guyana.jpg"
+                  alt="Guyana building"
+                />
+                <div id="guyana-info" class="destinations-overlay">
+                  <div id="#guyana-info" class="overlay-content">
+                    <span class="flag-icon fi fi-gy"></span>
+                    <h3 class="fs-2 fw-bold">Guyana</h3>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-lg-6 destinations-card image-reveal"
+                data-bs-toggle="collapse"
+                data-bs-target="#barbados-info"
+              >
+                <img
+                  class="destinations-image"
+                  src="images/country - barbados.jpg"
+                  alt="Barbados building"
+                />
+                <div id="barbados-info" class="destinations-overlay">
+                  <div class="overlay-content">
+                    <span class="flag-icon fi fi-bb"></span>
+                    <h3 class="fs-2 fw-bold">Barbados</h3>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-lg-6 destinations-card image-reveal"
+                data-bs-toggle="collapse"
+                data-bs-target="#dominican-republic-info"
+              >
+                <img
+                  class="destinations-image"
+                  src="images/country - dominican-republic.jpg"
+                  alt="Dominican Republic beach"
+                />
+                <div id="dominican-republic-info" class="destinations-overlay">
+                  <div class="overlay-content">
+                    <span class="flag-icon fi fi-do"></span>
+                    <h3 class="fs-2 fw-bold">Dominican Republic</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SPONSORS / LOGO MARQUEE-->
+      <section class="sponsors py-4 bg-light overflow-hidden my-5">
+        <div class="container-fluid p-0">
+          <div class="marquee">
+            <div class="marquee-track d-flex align-items-center">
+              <img
+                class="sponsor-logo"
+                src="images/logo-coca-cola.png"
+                alt="Coca-Cola logo"
+              />
+              <img
+                class="sponsor-logo"
+                src="images/logo-google.png"
+                alt="Google logo"
+              />
+              <img
+                class="sponsor-logo"
+                src="images/logo-visa.png"
+                alt="Visa logo"
+              />
+              <img
+                class="sponsor-logo"
+                src="images/logo-apple.png"
+                alt="Apple logo"
+              />
+              <img
+                class="sponsor-logo"
+                src="images/logo-instagram.png"
+                alt="Instagram logo"
+              />
+              <img
+                class="sponsor-logo"
+                src="images/logo-samsung.png"
+                alt="Samsung logo"
+              />
+              <img
+                class="sponsor-logo"
+                src="images/logo-coca-cola.png"
+                alt="Coca-Cola logo"
+              />
+              <img
+                class="sponsor-logo"
+                src="images/logo-google.png"
+                alt="Google logo"
+              />
+              <img
+                class="sponsor-logo"
+                src="images/logo-visa.png"
+                alt="Visa logo"
+              />
+              <img
+                class="sponsor-logo"
+                src="images/logo-apple.png"
+                alt="Apple logo"
+              />
+              <img
+                class="sponsor-logo"
+                src="images/logo-instagram.png"
+                alt="Instagram logo"
+              />
+              <img
+                class="sponsor-logo"
+                src="images/logo-samsung.png"
+                alt="Samsung logo"
+              />
+              <img
+                class="sponsor-logo"
+                src="images/logo-coca-cola.png"
+                alt="Coca-Cola logo"
+              />
+              <img
+                class="sponsor-logo"
+                src="images/logo-google.png"
+                alt="Google logo"
+              />
+              <img
+                class="sponsor-logo"
+                src="images/logo-visa.png"
+                alt="Visa logo"
+              />
+              <img
+                class="sponsor-logo"
+                src="images/logo-apple.png"
+                alt="Apple logo"
+              />
+              <img
+                class="sponsor-logo"
+                src="images/logo-instagram.png"
+                alt="Instagram logo"
+              />
+              <img
+                class="sponsor-logo"
+                src="images/logo-samsung.png"
+                alt="Samsung logo"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="services pt-2 pb-5 py-lg-5">
+        <div class="container">
+          <div
+            class="destination-title d-flex justify-content-center align-items-center text-center mb-3 mb-lg-5"
+          >
+            <h2 class="text-capitalize display-4 fw-bold">services we offer</h2>
+          </div>
+          <div class="row g-4 justify-content-center">
+            <div class="col-12 col-lg-4 services-card-container auto-show">
+              <div class="card services-card h-100">
+                <div
+                  class="card-body d-flex flex-column justify-content-center align-items-center gap-5"
+                >
+                  <div class="card-title">
+                    <i
+                      class="services-icon bi bi-geo-alt-fill display-5 d-flex justify-content-center"
+                    ></i>
+                  </div>
+                  <div class="card-text">
+                    <h6 class="card-subtitle fs-5 text-body-secondary mb-2">
+                      Island destinations
+                    </h6>
+                    <p class="card-text">
+                      Discover breathtaking Caribbean islands, from the pristin
+                      beaches of Aruba to the vibrant culture of Jamaica. We
+                      curate destination for unforgettable experiences.
+                    </p>
+                  </div>
+                  <div class="card-btn mt-auto">
+                    <a
+                      href="#"
+                      class="btn btn-outline-success card-link services-btn"
+                      >Book Now</a
+                    >
+                    <a href="#" class="btn btn-secondary card-link services-btn"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 services-card-container auto-show">
+              <div class="card services-card h-100">
+                <div
+                  class="card-body d-flex flex-column justify-content-center align-items-center gap-5"
+                >
+                  <div class="card-title">
+                    <i
+                      class="services-icon bi bi-calendar-check-fill display-5 d-flex justify-content-center"
+                    ></i>
+                  </div>
+                  <div class="card-text">
+                    <h6 class="card-subtitle fs-5 text-body-secondary mb-2">
+                      Trip planning made easy
+                    </h6>
+                    <p class="card-text">
+                      Skip the hassle of organizing your vacation. We handle
+                      flights, accommodations, and activities so you can relax
+                      and enjoy your island getaway.
+                    </p>
+                  </div>
+                  <div class="card-btn mt-auto">
+                    <a href="#" class="btn btn-outline-success card-link"
+                      >Book Now</a
+                    >
+                    <a href="#" class="btn btn-secondary card-link"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 services-card-container auto-show">
+              <div class="card services-card h-100">
+                <div
+                  class="card-body d-flex flex-column justify-content-center align-items-center gap-5"
+                >
+                  <div class="card-title">
+                    <i
+                      class="services-icon bi bi-sun-fill display-5 d-flex justify-content-center"
+                    ></i>
+                  </div>
+                  <div class="card-text">
+                    <h6 class="card-subtitle fs-5 text-body-secondary mb-2">
+                      Adventure & fun in the sun
+                    </h6>
+                    <p class="card-text">
+                      From snorkeling coral reefs to island hiking trails, enjoy
+                      endless sunny adventures tailored for every traveler. Make
+                      your Caribbean trip full of excitement, activity, and
+                      vibes.
+                    </p>
+                  </div>
+                  <div class="card-btn mt-auto">
+                    <a href="#" class="btn btn-outline-success card-link"
+                      >Book Now</a
+                    >
+                    <a href="#" class="btn btn-secondary card-link"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURES -->
+      <section class="container py-2 py-lg-5 my-lg-5">
+        <div class="carousel-container">
+          <div
+            id="carousel-features"
+            class="carousel slide features image-reveal"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carousel-features"
+                data-bs-slide-to="0"
+                class="active px-1 mx-1"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                class="px-1 mx-1"
+                type="button"
+                data-bs-target="#carousel-features"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                class="px-1 mx-1"
+                type="button"
+                data-bs-target="#carousel-features"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <!-- SLIDE ONE -->
+              <div class="carousel-item active carousel-features-item">
+                <img
+                  src="images/island-1.jpg"
+                  class="d-block w-100 carousel-features-image"
+                  alt="raining city"
+                />
+                <div class="carousel-caption top-0 mt-0 d-block">
+                  <h1
+                    class="features-title display-1 fw-bold text-color-secondary mt-3 text-capitalize text-pretty"
+                  >
+                    Features
+                  </h1>
+                  <ul
+                    class="features-list fs-4 fw-semibold text-tertiary mt-3 text-capitalize text-pretty list-unstyled text-start d-flex flex-column flex-wrap justify-content-between gap-1 gap-lg-2"
+                  >
+                    <li class="d-flex align-items-center">
+                      <i class="ms-1 bi bi-house-heart me-2"></i> Beachfront
+                      resorts
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <i class="ms-1 bi bi-airplane me-2"></i> flight & hotel
+                      packages
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <i class="ms-1 bi bi-cup-straw me-2"></i> all-inclusive
+                      experiences
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <i class="ms-1 bi bi-music-note-beamed me-2"></i> local
+                      culture & music events
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <i class="ms-1 bi bi-headset me-2"></i> 24/7 travel
+                      support
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- SLIDE TWO -->
+              <div class="carousel-item carousel-features-item">
+                <img
+                  src="images/island-2.jpg"
+                  class="d-block w-100 carousel-features-image"
+                  alt="aurora sky reflected on lake"
+                />
+                <div class="carousel-caption top-0 mt-0 d-block">
+                  <h1
+                    class="features-title display-1 fw-bold text-color-secondary mt-3 text-capitalize text-pretty"
+                  >
+                    Testimonials
+                  </h1>
+                  <ul
+                    class="features-list fs-5 fw-light text-tertiary mt-3 text-pretty list-unstyled text-start d-flex flex-column flex-wrap justify-content-between align-items-start gap-1"
+                  >
+                    <li
+                      class="d-flex flex-lg-row flex-row justify-content-start align-items-center gap-2 gap-lg-3 m-0"
+                    >
+                      <img
+                        src="images/client pfp 3.jpg"
+                        alt="random person's profile picture"
+                      />
+                      <p class="p-0 m-0">
+                        <span class="fs-3 text-warning">"</span>Absolutely the
+                        best vacation experience I have ever had!<span
+                          class="fs-3 text-warning"
+                          >"</span
+                        >
+                      </p>
+                    </li>
+                    <li
+                      class="d-flex flex-lg-row flex-row justify-content-center align-items-center gap-2 gap-lg-3 m-0"
+                    >
+                      <img
+                        src="images/client pfp 5.jpg"
+                        alt="random person's profile picture"
+                      />
+                      <p class="p-0 m-0">
+                        <span class="fs-3 text-warning">"</span>Very helpful and
+                        accommodating.<span class="fs-3 text-warning">"</span>
+                      </p>
+                    </li>
+                    <li
+                      class="d-flex flex-lg-row flex-row justify-content-center align-items-center gap-2 gap-lg-3 m-0"
+                    >
+                      <img
+                        src="images/client pfp 1.jpg"
+                        alt="random person's profile picture"
+                      />
+                      <p class="p-0 m-0">
+                        <span class="fs-3 text-warning">"</span>I had so much
+                        fun, can't wait to travel again with IslandVibes :)<span
+                          class="fs-3 text-warning"
+                          >"</span
+                        >
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- SLIDE THREE -->
+              <div class="carousel-item carousel-features-item">
+                <img
+                  src="images/island-3.jpg"
+                  class="d-block w-100 carousel-features-image"
+                  alt="aurora sky reflected on lake"
+                />
+                <div class="carousel-caption carousel">
+                  <h1
+                    class="features-title display-3 fw-bold text-color-secondary mt-3 text-capitalize text-pretty"
+                  >
+                    What are you waiting for?
+                  </h1>
+                  <ul
+                    class="features-list-slide-3 fs-2 fw-semibold text-tertiary mt-3 text-capitalize text-pretty list-unstyled text-start d-flex flex-column flex-wrap justify-content-center align-items-center gap-2 gap-lg-2 text-center"
+                  >
+                    <li
+                      class="d-flex flex-column justify-content-center align-items-center gap-4 gap-lg-5 m-0 text-pretty"
+                    >
+                      <p class="p-0 m-0 text-balance">
+                        Get your dream vacation at the most competitive rates!
+                      </p>
+                      <a
+                        class="btn btn-lg btn-danger py-2 px-3 px-lg-5 features-btn fs-4 fw-bold"
+                        href="#"
+                        >Book Now</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carousel-features"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carousel-features"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT FORM -->
+      <section class="container py-5 my-lg-5 auto-show">
+        <div class="contact-form-container container p-3">
+          <div
+            class="destination-title d-flex justify-content-center align-items-center text-center mb-3"
+          >
+            <h2 class="text-capitalize display-4 fw-bold">Contact us</h2>
+          </div>
+          <div class="row gy-3">
+            <div
+              class="col-12 col-lg-8 d-flex justify-content-center align-items-center"
+            >
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Email address <span class="text-danger">*</span></label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    required
+                  />
+                  <div id="emailHelp" class="form-text">
+                    We'll never share your email with anyone else.
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputFirstName" class="form-label"
+                    >First Name <span class="text-danger">*</span></label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleInputFirstName"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputLastName" class="form-label"
+                    >Last Name <span class="text-danger">*</span></label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleInputLastName"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPhoneNumber" class="form-label"
+                    >Phone Number
+                    <span class="text-muted">(Optional)</span></label
+                  >
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="exampleInputPhoneNumber"
+                  />
+                </div>
+                <div class="mb-0 form-check text-muted">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="exampleCheck1"
+                    required
+                  />
+                  <label class="form-check-label" for="exampleCheck1"
+                    >I have read and agree to the Terms of Service and Privacy
+                    Policy <span class="text-danger">*</span></label
+                  >
+                </div>
+                <div class="mb-3 form-check text-muted">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="exampleCheck2"
+                  />
+                  <label class="form-check-label" for="exampleCheck2"
+                    >I'd like to receive exclusive emails about offers, deals,
+                    and updates from IslandVibes</label
+                  >
+                </div>
+                <button type="submit" class="btn btn-primary w-100">
+                  Submit
+                </button>
+              </form>
+            </div>
+            <div
+              class="col-12 col-lg-4 d-flex justify-content-center align-items-center"
+            >
+              <div class="contact-image-container container image-reveal">
+                <img
+                  class="d-lg-block d-none img-fluid mx-auto"
+                  src="images/family-photo.jpg"
+                  alt="Family Photo"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRICING PLAN (COPIED FROM SPACER-WEB-PAGE) -->
+      <!-- PRICING -->
+      <section class="pricing container">
+        <div class="pricing-title">
+          <h2 class="text-capitalize display-4 fw-bold">
+            Flexible vacation packages
+          </h2>
+          <p class="text-capitalize fs-3 fw-semibold">
+            Designed for every type of island traveler
+          </p>
+        </div>
+        <div class="pricing-container">
+          <!-- Basic Plan -->
+          <input
+            type="radio"
+            name="pricing-plan"
+            id="plan-basic"
+            class="pricing-radio"
+          />
+          <label class="auto-show pricing-item" for="plan-basic">
+            <div class="pricing-item-top">
+              <h3 class="fs-5">Island Explorer</h3>
+              <p class="fs-6"><span class="bold-money">$39.99</span>/trip</p>
+            </div>
+            <div class="pricing-item-bottom">
+              <ul class="pricing-features">
+                <li>Hotel & resort recommendations</li>
+                <li>Flight search & price tracking</li>
+                <li>Popular island destinations</li>
+                <li>Email support</li>
+              </ul>
+            </div>
+            <div class="pricing-btn btn-container">
+              <a class="btn btn-container btn-success" href="#"
+                >Choose Explorer</a
+              >
+            </div>
+          </label>
+          <!-- Professional Plan -->
+          <input
+            type="radio"
+            name="pricing-plan"
+            id="plan-pro"
+            class="pricing-radio"
+          />
+          <label class="pricing-item auto-show" for="plan-pro">
+            <div class="pricing-item-top">
+              <h3 class="fs-5">Island Escape</h3>
+              <p class="fs-6"><span class="bold-money">$99.99</span>/trip</p>
+            </div>
+            <div class="pricing-item-bottom">
+              <ul class="pricing-features">
+                <li>Hotel, resort & flight booking</li>
+                <li>Custom vacation itinerary</li>
+                <li>Airport transfers & add-ons</li>
+                <li>Excursions & activity planning</li>
+                <li>Priority customer support</li>
+              </ul>
+            </div>
+            <div class="pricing-btn btn-container">
+              <a class="btn btn-container btn-success" href="#"
+                >Choose Escape</a
+              >
+            </div>
+          </label>
+          <!-- Enterprise Plan -->
+          <input
+            type="radio"
+            name="pricing-plan"
+            id="plan-enterprise"
+            class="pricing-radio"
+          />
+          <label class="pricing-item auto-show" for="plan-enterprise">
+            <div class="pricing-item-top">
+              <h3 class="fs-5">Island Luxe</h3>
+              <p class="fs-6"><span class="bold-money">$249.99</span>/trip</p>
+            </div>
+            <div class="pricing-item-bottom">
+              <ul class="pricing-features">
+                <li>Luxury resorts & villas</li>
+                <li>First & business class flights</li>
+                <li>Private transfers & concierge</li>
+                <li>Personal travel advisor</li>
+                <li>Exclusive experiences & events</li>
+                <li>24/7 VIP support</li>
+              </ul>
+            </div>
+            <div class="pricing-btn btn-container">
+              <a class="btn btn-container btn-success" href="#">Choose Luxe</a>
+            </div>
+          </label>
+        </div>
+      </section>
+
+      <!-- FAQ (COPIED FROM ByteBrad-bs) -->
+      <!-- FAQ -->
+      <section id="faq-accordion" class="my-2 my-lg-5 pb-5">
+        <div class="container auto-show">
+          <h2 class="fs-1 fw-bold text-center py-sm-5 py-3 text-capitalize">
+            frequenty asked questions
+          </h2>
+        </div>
+        <div class="container auto-show">
+          <div class="accordion" id="faq-accordion">
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button
+                  class="accordion-button collapsed text-capitalize fs-5 fw-medium"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  How long does it take to book your tour?
+                </button>
+              </h3>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faq-accordion"
+              >
+                <div class="accordion-body">
+                  Most bookings are completed within 24–72 hours, depending on
+                  availability and customization. Complex or luxury trips may
+                  take slightly longer.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button
+                  class="accordion-button collapsed text-capitalize fs-5 fw-medium"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Do you offer group or family packages?
+                </button>
+              </h3>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faq-accordion"
+              >
+                <div class="accordion-body">
+                  Yes! We offer family, couple, and group packages, including
+                  destination weddings, honeymoons, and retreats. Group
+                  discounts may apply.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button
+                  class="accordion-button collapsed text-capitalize fs-5 fw-medium"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Can you handle flights and hotels together?
+                </button>
+              </h3>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faq-accordion"
+              >
+                <div class="accordion-body">
+                  Absolutely. IslandVibes specializes in complete travel
+                  packages, including flights, accommodations, transfers, and
+                  excursions.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button
+                  class="accordion-button collapsed text-capitalize fs-5 fw-medium"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                >
+                  Do I need a visa to travel?
+                </button>
+              </h3>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faq-accordion"
+              >
+                <div class="accordion-body">
+                  Visa requirements vary by nationality and destination. We’ll
+                  guide you through the process, but final responsibility lies
+                  with the traveler.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button
+                  class="accordion-button collapsed text-capitalize fs-5 fw-medium"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                  aria-expanded="false"
+                  aria-controls="collapseFive"
+                >
+                  What is your cancellation or refund policy?
+                </button>
+              </h3>
+              <div
+                id="collapseFive"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faq-accordion"
+              >
+                <div class="accordion-body">
+                  Refunds depend on airline, hotel, and package rules. Many
+                  bookings allow partial or full refunds if canceled within the
+                  approved window.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER (COPIED FROM ByteBrad-bs) -->
+    <!-- FOOTER -->
+    <footer class="footer bg-dark p-5">
+      <div
+        class="container-lg d-flex flex-column flex-md-row justify-content-around align-items-center align-items-md-start gap-3 gap-md-5"
+      >
+        <div
+          class="d-flex flex-column align-items-center align-items-md-start gap-3 text-md-start text-center"
+        >
+          <a class="navbar-brand fs-3 fw-bold logo-font text-light" href="#"
+            >Island<span class="text-warning">Vibes</span></a
+          >
+          <p class="text-light">
+            IslandVibes is your gateway to unforgettable Caribbean getaways.
+            From luxury resorts to laid-back beach escapes, we handle every
+            detail so you can travel stress-free and island-ready.
+          </p>
+        </div>
+        <div
+          class="d-flex flex-column flex-sm-row gap-md-5 gap-3 gap-sm-5 justify-content-center text-sm-start text-center"
+        >
+          <div class="footer-links d-flex flex-column justify-content-start">
+            <h3 class="text-info fs-4 text-center">Destinations</h3>
+            <ul class="footer-title list-unstyled">
+              <li>
+                <a class="footer-link" href="#">Trinidad & Tobago</a>
+              </li>
+              <li><a class="footer-link" href="#">Jamaica</a></li>
+              <li><a class="footer-link" href="#">Barbados</a></li>
+              <li><a class="footer-link" href="#">Dominican Republic</a></li>
+            </ul>
+          </div>
+          <div class="footer-links d-flex flex-column justify-content-start">
+            <h3 class="text-info fs-4 text-center">Travel Services</h3>
+            <ul class="footer-title list-unstyled">
+              <li>
+                <a class="footer-link" href="#">Flight Booking</a>
+              </li>
+              <li><a class="footer-link" href="#">Resorts & Hotels</a></li>
+              <li><a class="footer-link" href="#">Excursions</a></li>
+              <li><a class="footer-link" href="#">Custom Packages</a></li>
+            </ul>
+          </div>
+          <div class="footer-links d-flex flex-column justify-content-start">
+            <h3 class="text-info fs-4 text-center">Support</h3>
+            <ul class="footer-title list-unstyled">
+              <li>
+                <a class="footer-link" href="#">FAQs</a>
+              </li>
+              <li><a class="footer-link" href="#">Contact Us</a></li>
+              <li><a class="footer-link" href="#">Terms & Conditions</a></li>
+              <li><a class="footer-link" href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
